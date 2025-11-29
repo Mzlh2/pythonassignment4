@@ -15,15 +15,13 @@ g. Vectorised Operations- can perform operations on whole arrays without loops.
 Example: arr * 2 multiplies every element instantly.
 
 Differences Between NumPy Arrays and Python Lists 
-Feature	        Python List     	       NumPy Array
-Speed:	        Slow	                   Very fast
-Data Type:	    Can store mixed          Only one data type allowed
-                types (e.g., int
-                + string)	
-Memory:	        Uses more memory	       Uses less memory
-Mathematical    Needs loops (slow)	     Direct operations (fast)
-Operations:	
-Multi-          Hard to create,          Easy to create matrix-like arrays
-Dimensional:    2D/3D lists  
+| Feature                       | Python List                                | NumPy Array                       |
+| ----------------------------- | ------------------------------------------ | --------------------------------- |
+| **Speed**                     | Slow                                       | Very fast                         |
+| **Data Type**                 | Can store mixed types (e.g., int + string) | Only one data type allowed        |
+| **Memory**                    | Uses more memory                           | Uses less memory                  |
+| **Mathematical Operations**   | Needs loops (slow)                         | Direct operations (fast)          |
+| **Multi-Dimensional Support** | Hard to create 2D/3D lists                 | Easy to create matrix-like arrays |
+| **Usage**                     | General purpose                            | Mainly for scientific/maths data  |
+
 		
-Usage:          General purpose	         Mainly for scientific/maths data
